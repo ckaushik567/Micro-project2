@@ -78,12 +78,15 @@ input{
     box-shadow: 4px 7px 32px rgba(0,0,0,0.44);
     border-radius: 15px;
 }
+#down-arrow{
+     margin-bottom: 4px;
+     width: 10px;
+}
 .main-section{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 170px;
-     
+    margin-top: 170px;     
 }
 .ing1{
      position: absolute;
@@ -327,81 +330,188 @@ input{
     margin-left: 28px;
 }
 
-
-/* @media screen and (max-width:1036px) {
+@media screen and (max-width:1318px){
+    .text-area textarea{  
+        height: 50vh;   
+    }
+    .group2 img{
+        position: absolute;
+        top: 100px;
+    }
+}
+@media screen and (max-width:1270px){
+    .text-area textarea{  
+         width: 600px; 
+         height: 50vh;  
+    }
+}
+@media screen and (max-width:1238px){
+    .text-area textarea{  
+         width: 500px;   
+         height: 50vh;
+    }
+}
+@media screen and (max-width:1122px){
+    .text-area textarea{  
+         width: 400px;   
+         height: 50vh;
+    }
+}
+@media screen and (max-width:998px){
+    .text-area textarea{  
+         width: 400px;   
+         height: 35vh;
+    }
+    .img-section img{
+        width: 300px;
+        height: 35vh;
+    }
+}
+@media screen and (max-width:1048px){
     .manu-section{
         display: none;
     }
-    .box3{
-        padding: 15px 147px 15px 14px;
-        margin-top: 20px;
-    }
-    .box4{
-        padding: 15px 132px 15px 14px;
-        margin-top: 20px;
-    }
 }
 
-@media screen and (min-width:886) and (max-width:1176){
-    .box3{
-        padding: 15px 147px 15px 14px;
-        margin-top: 20px;
+@media screen and (max-width:865px){
+    .main-section{
+        display: flex;
         flex-wrap: wrap;
+        justify-content: center;
     }
-    .box4{
-        padding: 15px 132px 15px 14px;
-        margin-top: 20px;
-        flex-wrap: wrap;
+    .text-area textarea{  
+         width: 500px; 
+         margin-top: 20px; 
+    }
+    .img-section img{
+        width: 410px;
+        height: 35vh;
     }
 }
-@media screen and (min-width:986px) and (max-width:1030px){
-    .text-area textarea{
-        width: 500px;
-        height: 50vh;
-        
-    }
-    .information-area{
-        width: 600px;
-        height: 50vh;
-    }
-}
-@media screen and (min-width:861px) and (max-width:986px){
-    .text-area textarea{
+@media screen and (max-width:832px){
+    .img-section img{
         width: 300px;
-        height: 50vh;   
+        height: 35vh;
     }
-    .information-area{
-        width: 450px;
-        height: 50vh;
+    
+}
+@media screen and (max-width:1076px){
+    .box-section{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .box3{
+        margin-top: 10px;
+        width: 258px;
+    }
+    .box4{
+        margin-top: 10px;
+        width: 248px;
+    }
+}
+@media screen and (max-width:606px){
+    .box1{
+        width: 300px;
+    }
+    .box2{
+        width: 300px;
+        margin-top: 10px;
+    }
+    .box3{
+        width: 300px;
+    }
+    .box4{
+        width: 300px;
     }
 }
 
-@media screen and (max-width:855){
-    .text-area textarea{
-        width: 200px;
-        height: 50vh;
-        
+@media screen and (max-width:1240px){
+    .information-area{
+        width: 700px;
+    }
+    .button-section button{
+        position: absolute;
+        right: 150px;
+        justify-content: center;
+    }
+    #box4-img{
+        top: 41.5vw;
     }
 }
-@media screen and (min-width:1031px) and (max-width:1250px){
-    .text-area textarea{
-        width: 700px;
-        height: 50vh;
-        
+ @media screen and (max-width:1148px){
+    .information-area{
+        width: 650px;
     }
+    #box4-img{
+        top: 45vw;
+    }
+}
+@media screen and (max-width:1090px){
+    .information-area{
+        width: 600px;
+    }
+    #box4-img{
+        top: 47vw;
+    }
+}
+@media screen and (max-width:1026px){
     .information-area{
         width: 500px;
-        height: 50vh;
+    }
+    #box4-img{
+        top: 48vw;
     }
 }
-@media screen and (min-width:1251px) and (max-width:1370px){
-    .text-area textarea{
-        width: 600px;
-        height: 50vh;
-        
-    }
+@media screen and (max-width:1240px){
     .information-area{
-        width: 700px;
-        height: 50vh;
+        width: 400px;
     }
-} */
+    #box4-img{
+        top: 49vw;
+    }
+}
+    
+@media screen and (max-width:782px){
+    .information-area{
+        width: 350px;
+        top: 50vw;
+    }
+}
+@media screen and (max-width:728px){
+     .information-section{
+        flex-wrap: wrap;
+        justify-content: center;
+     }
+     .button-section button{
+        width: 300px;
+        position: absolute;
+        right: 210px;
+        text-align:center
+     }
+     .boxes1{
+        width: 310px;
+     }
+     .boxes2{
+        width: 310px;
+     }
+     .boxes3{
+        width: 310px;
+     }
+    .information-area{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:798px){
+    .button-section button{
+        width: 100px;
+        /* position: absolute;
+        right: 210px;
+        text-align:center */
+     }
+}
+@media screen and (max-width:482px){
+    .info1 p{
+        width: 5px;
+    }
+}
